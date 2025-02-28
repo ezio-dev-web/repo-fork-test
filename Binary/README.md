@@ -104,7 +104,7 @@ Nuestra unidad de almacenamiento a sido creada con exitosamente, a continuación
 - Seleccione su programa
 - Verifique cuantos caracteres tiene
 - Debe contener 406 carácteres
-- En su unidad lógica creada desde el primer caracter seleccione 406 carácteres
+- En su unidad lógica creada, desde el primer caracter seleccione 406 carácteres
 - Borre los carácteres selccionados
 - Copie su programa y peguelo en la zona que borro en el paso anterior
 
@@ -117,9 +117,9 @@ El resultado siguiente es:
 ### HxD y CyberChef
 Instale el software [HxD][HxD], mientras realiza la instalación vamos a convertir nuestra unidad lógica a formato hexadecimal, para que el programa HxD genere un archivo ".raw" que la BIOS pueda ejecutar.
 
-Ingresemos a la página wbe [CyberChef][CyberChef], copie la unidad lógica y peguelo en CyberChef, seleccione "to Binary" y "to Hex" para convervir de binario a hexadecimal.
+Ingresemos a la página web [CyberChef][CyberChef], copie la unidad lógica y peguelo en CyberChef, seleccione "to Binary" y "to Hex" para convervir de binario a hexadecimal.
 
-Abra el programa HxD y cree un nuevo archivo, seleccione la unidad lógica convertida a hexadecimal en CyberChef y peguelo en la nueva ventana de HxD, desde ahí guarde el archivo en formato "code.raw", recuerde la ruta donde esta guardado el archvio "code.raw"
+Abrir el programa HxD y cree un nuevo archivo, seleccione la unidad lógica convertida a hexadecimal en CyberChef y peguelo en la nueva ventana de HxD, desde ahí guarde el archivo en formato "code.raw", recuerde la ruta donde esta guardado el archvio "code.raw"
 
 ## Qemu
 Es un programa de virtualización que emula hardware, para permitir instalar sistemas operativos, es similar a VMware o Virtual Box, con la única diferencia que se ejecuta desde una consola. Instale [Qemu][Qemu] y siga la [guía de instalación.][Guia-Qemu]
